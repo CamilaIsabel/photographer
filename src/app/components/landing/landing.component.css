@@ -1,0 +1,43 @@
+.backgroundImage{
+    background-image:url(/assets/pictures/picture1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+   
+}
+
+
+
+.complemet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig-icons{
+    color: white;
+}
+
+.image-icons{
+    display: flex;
+    padding-top: 5px;
+}
+.youtube-icons{
+    display: flex;
+}
+.line2{
+    display: flex;
+    padding-top: 5px;
+}
+.text-landing{
+    color:white;
+    font-size:60px;  
+    padding-right:600px;
+}
+.text-landing2{
+    color:white;
+    font-size:45px;
+    line-height:10px;   
+ 
+}
+

@@ -1,0 +1,13 @@
+
+.headline{
+    color:white;
+    word-spacing:10px;
+    display: flex;
+    gap: 45px;
+}
+.line{
+    line-height: 2px;
+}
+.about{
+    word-spacing:0px;
+}
