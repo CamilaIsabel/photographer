@@ -1,0 +1,17 @@
+
+<div class="modal" (click)="openModal()">
+    <div class="zoomAnimation cursor-pointer duration-100 w-56 h-80" >
+        <img [src]="photoText" [alt]="alt" class="rounded-2xl shadow-xl ">
+        
+    </div>
+</div>
+
+<!-- ACA TE TENES QUE HACER UN DIV QUE OCUPE TODA LA PANTALLA ESTE DE ABAJO ES ESE DIV ESTE DIV VA A SER EL COSO NEGRO QUE APARECE EN EL FONDO c;-->
+<div *ngIf="modalIsOpen" (click)="closeModal()" class="fixed top-0 left-0 bg-black bg-opacity-70 w-full h-screen flex justify-center">
+    <div (click)="$event.stopPropagation()">
+        <img [src]="photoText" [alt]="alt" class="w-full pt-4 pb-4 h-screen items-center">  
+    </div>
+    <div>
+        <button class="text-3xl text-white absolute top-4 right-4" (click)="closeModal()">X</button>
+    </div>
+</div>
