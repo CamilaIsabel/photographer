@@ -5,16 +5,19 @@ import { AppComponent } from './app.component';
 import { LandingModule } from './components/landing/landing.module';
 import { AboutMeComponent } from './components/about/about-me';
 import { PortfolioModule } from './components/portfolio/portfolio.module';
+import {FooterModule} from './components/footer/footer.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
+  
   ],
   imports: [
     BrowserModule,
     LandingModule,
-    PortfolioModule
+    PortfolioModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
